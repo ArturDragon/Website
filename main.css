@@ -1,0 +1,51 @@
+.page {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.page-top {
+    border-top: 9px solid #c2c2c2;
+}
+
+.page h2 {
+    position: absolute;
+    top: -24px;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #fff;
+    padding: 5px;
+    color: #c2c2c2;
+}
+
+.services {
+    display: grid;
+    grid-template: 50% 50% /50% 50%;
+}
+
+.services-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.services-img {
+    flex-basis: 120px;
+}
+
+.services-text {
+    flex-basis: calc(100% -120%);
+    text-align: center;
+}
+
+.services h3 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.services p {
+    font-size: 14px;
+    color: #b2b2b2;
+}
+
+col
