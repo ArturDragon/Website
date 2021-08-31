@@ -14,23 +14,19 @@
     font-size: 14px;
     font-weight: 300;
     background-color: #fff;
-    padding: 5px;
+    padding: 5px 15px;
     color: #c2c2c2;
 }
 
 .services {
     display: grid;
-    grid-template: 50% 50% /50% 50%;
+    grid-template: 50% 50% / 50% 50%;
 }
 
 .services-item {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-}
-
-.services-img {
-    flex-basis: 120px;
 }
 
 .services-text {
@@ -46,6 +42,17 @@
 .services p {
     font-size: 14px;
     color: #b2b2b2;
+    line-height: 1.5;
 }
 
-col
+.wrap {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.services-img {
+    flex-basis: 100px;
+}
